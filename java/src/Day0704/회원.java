@@ -23,11 +23,13 @@ public class 회원 {//class start
 	}
 	//2. 모든 필드를 받는 생성자
 	public 회원(String 아이디, String 비밀번호, String 성명, String 이메일, int 전화번호) {
+		
 		this.아이디 = 아이디;
 		this.비밀번호 = 비밀번호;
 		this.성명 = 성명;
 		this.이메일 = 이메일;
 		this.전화번호 = 전화번호;
+		
 	}
 	
 	//3. 특정 필드만 받는 생성자
