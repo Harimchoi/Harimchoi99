@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body{
+	font-family:돋움체; /*클라이언트가 폰트를 갖고 있어야 볼 수 있습니다.*/
+	color:#228B22;
+	margin:0px;
+	padding:0px; 
+}
+table{
+	border:1px solid #B9062F;
+	border-collapse : collapse;
+	padding-top:10px;
+}
+td{
+	height:32px;
+	font-family:"hancomEQN","맑은 고딕","돋움체",;
+}
+table, tr, td{
+	text-align:center;
+}
+.bg_title{
+	text-align: center;
+	padding-top:40px;
+	height:60px;
+	width:100%;
+	font-weight:bold;
+	background:#B4B4FF;
+	font-size:20px;
+	margin-bottom:10px;
+}
+.bg_title2{
+	background:#C6FF70;
+	height:50px;
+	font-size:12px;
+	margin-top:300px;
+}
+.center{
+	text-align:left;
+	padding-left:10px;
+}
+.title{
+	background:#FF1493;	
+}
+.bg{
+	background:#FFE3EE;
+}
+input{
+	height:28px;
+	border:1px solid #D25A5A;
+	color : #000069;
+	font-size:12px;
+	font-family:"돋움체";
+}
+textarea{
+	border:1px solid #D25A5A;
+	font-size:12px;
+	font-family:"돋움체";
+}
+.red{
+	background:#CD1039;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
