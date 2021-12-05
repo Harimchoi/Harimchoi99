@@ -1,0 +1,116 @@
+@charset "UTF-8";
+body{
+	font-family:돋움체; /*클라이언트가 폰트를 갖고 있어야 볼 수 있습니다. */
+	color:#945050;
+	margin:0px;
+	padding:0px;
+}
+table{
+	border:1px solid #D25A5A;
+	border-collapse: collapse;
+}
+td{
+	border:1px solid #D25A5A;
+	height:32px;
+	font-family: "hancomEQN", "맑은 고딕", "돋움체", ;
+}
+table, tr, td{
+	text-align: center;
+}
+.bg_title{
+	text-align: center;
+	padding-top: 40px;
+	height:60px;
+	width:100%;
+	font-weight:bold;
+	background:#FFF0F5;
+	font-size:24px;
+	margin-bottom: 50px;
+}
+.bg_title2{
+	background:#E598BB;
+	height:50px;
+	font-size:12px;
+	margin-top:300px;
+
+}
+.center{
+	text-align: left;
+	padding-left:10px;
+}
+.title{
+	background:#FFAAAF;
+}
+.con_height{
+	height:300px;
+}
+.bg{
+	background:#FFE3EE;
+}
+input{
+	height:28px;
+	border:1px solid #D25A5A;
+	color:#945050;
+	font-size:12px;
+	font-family: "돋움체";
+}
+textarea{
+	border:1px solid #D25A5A;
+	color:#945050;
+	font-size:12px;
+	font-family: "돋움체";
+}
+input[class=red]{
+	background:#FF98A3;
+}
+
+.dat_table{
+	/* border-collapse:separate; */
+	border:1px solid #d25a5a;
+	border:none;
+}
+.dat_table td{
+	border-width:0px;
+	border-bottom:1px solid #D25a5a;
+}
+.dat_input{
+	border:1px solid #d25a5a;
+	border:none;
+}
+.dat_input td{
+	border-width:0px;
+	border-bottom:1px solid #D25a5a;
+	border-top:1px solid #D25a5a;
+}
+.reset{
+	display: none;
+}
+#dat_del{
+	 visibility: hidden;
+	 position:absolute;
+	 border:1px solid #D25a5a;
+	 background-color: #ffffff;
+	 padding:5px;
+	 /* width:200px;
+	 height:35px; */
+}
+.page{
+	display: inline-block;
+	width:35px;
+	padding:5px 0px;;
+}
+.link{
+	cursor: pointer;
+}
+.page:hover {
+	background-color: #ff9bb1;
+}
+
+
+
+
+
+
+
+
+
