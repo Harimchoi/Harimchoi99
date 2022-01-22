@@ -1,0 +1,101 @@
+@charset "UTF-8";
+.reset{
+	display:none;
+}
+body{
+	font-family:돋움체;
+	color:#945050;
+	margin:0px;
+	padding:0px;
+}
+td{
+	border : 1px solid #D25A5A;
+	height: 32px;
+	font-family:"맑은 고딕","hancomEQN","돋움체";
+}
+table{
+	border-collapse:collapse;
+}
+table, tr, td{
+	text-align: center;
+}
+.title{ /* 제목 */
+	background: #FFAAAF;
+}
+.content{ /* 내용 */
+	text-align:left;
+	/* text-indent: 10px; */
+	padding-left:10px;
+}
+.bg{
+	background: #FFE3EE;
+}
+tr{
+	background: #FFF0F5;
+}
+.bt{
+	background: #ffffff;
+}
+.link{
+	cursor:pointer; 	
+}
+input{
+	height:25px;
+	border: 1px solid #D25A5A;
+	font-family:돋움체;
+	color:#945050;
+	
+}
+input[class=red]{
+	background : #FF98A3;
+}
+textarea {
+	border: 1px solid #B93C3C;
+	font-family:돋움체;
+	color:#945050;
+}
+
+ #del {  /* 삭제하기 폼 */
+       position:absolute;
+       visibility:hidden;
+     }
+ .bg_title{
+    /* border:1px solid red; */
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	height:30px;
+ 	width:100%;
+ 	font-weight: bold;
+ 	background : #FFF0F5;
+ }
+ .dat_table{
+ 	/* border-collapse:separate; */
+ 	border-collapse:separate;
+ 	/* background:red; */
+ 	border:0px solid #d25a5a;
+ 	border:none;
+ 	
+ }
+ .dat_table td{
+ 	border-width : 0px;
+	border-bottom : 1px solid #D25A5A;
+	
+	text-align: left;
+}
+ .dat_table tr{
+	text-align: left;
+}
+
+#dat_del {
+    position:absolute;
+    visibility:hidden;
+    background:red;
+    border:1px solid red;
+  }
+.page{
+	display : inline-block;
+	width:35px;
+}
+.page:hover{
+	background-color: #FF92B1;
+}
